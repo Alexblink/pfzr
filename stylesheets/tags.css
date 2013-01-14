@@ -21,22 +21,22 @@ h3 {
 
 /* line 6, ../sass/tags.scss */
 h1 {
-  font: normal 50px sketch;
+  font: normal 50px "sketch", Arial, sans-serif;
 }
 
 /* line 7, ../sass/tags.scss */
 h2 {
-  font: normal 26px sketch;
+  font: normal 26px "sketch", Arial, sans-serif;
 }
 
 /* line 8, ../sass/tags.scss */
 h3 {
-  font: normal 19px sketch;
+  font: normal 19px "sketch", Arial, sans-serif;
 }
 
 /* line 9, ../sass/tags.scss */
 h3 span {
-  font: normal 26px sketch;
+  font: normal 26px "sketch", Arial, sans-serif;
 }
 
 /* line 11, ../sass/tags.scss */

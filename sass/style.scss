@@ -1,11 +1,10 @@
-﻿/*cssing by flpk*/
+/*cssing by flpk*/
 @import 'responsive';
 @import 'navigation';
-@import 'font';
+/*@import 'font';*/
 @import 'front';
 @import 'get';
 @import 'tags';
-
 
 
 html, body { height:100%;}
@@ -20,7 +19,7 @@ body {
 	line-height:normal;
 	color: #fff; 		
 	/* background: url('../images/bg1.png') no-repeat 100% 100%; */
-	background: none;
+	background: none;    
 	}
 
 
@@ -50,9 +49,10 @@ p { color:#fff;}
 
 .page-width { 
 	margin:0;
+    border: none;
 	width:auto;
 	/* padding:0 0 0 7.5%;	 */
-	padding:0 0 0 136px; 
+	padding:0 0 0 7.5%; 
 	}
 #content .pane #block-system-main .node {  padding-left:50px;}
 body.page-node-31 #content .pane #block-system-main .node{

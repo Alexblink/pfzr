@@ -2,48 +2,47 @@
 @media (min-width: 1024px) and (max-width: 1440px) {
   /* line 2, ../sass/responsive.scss */
   .page-width {
-    padding: 0 0 0 7.5%!important;
-    border: 1px solid #fff000!important;
+    padding: 0 0 0 7.5% !important;
   }
 
   /* line 3, ../sass/responsive.scss */
   body.front {
-    background-position: 333px 100%!important;
+    background-position: 333px 100% !important;
   }
 
   /* line 4, ../sass/responsive.scss */
   body.not-front #page {
-    background-position: 1010px 0%!important;
+    background-position: 1010px 0% !important;
   }
 
   /* line 5, ../sass/responsive.scss */
   body.page-node-6 {
-    background-position: 779px 100%!important;
+    background-position: 779px 100% !important;
   }
 
   /* line 6, ../sass/responsive.scss */
   body.page-node-16 {
-    background-position: 779px 100%!important;
+    background-position: 779px 100% !important;
   }
 
   /* line 7, ../sass/responsive.scss */
   body.page-node-21 {
-    background-position: 1048px 100%!important;
+    background-position: 1048px 100% !important;
   }
 
   /* line 8, ../sass/responsive.scss */
   body.page-node-26 {
-    background-position: 729px 100%!important;
+    background-position: 729px 100% !important;
   }
 
   /* line 9, ../sass/responsive.scss */
   body.page-node-31 {
-    background-position: 788px 100%!important;
+    background-position: 788px 100% !important;
   }
 
   /* line 10, ../sass/responsive.scss */
   body.front .bird {
-    left: -108px !important;
+    left: -108px!important;
   }
 
   /* line 11, ../sass/responsive.scss */
@@ -115,13 +114,13 @@
   position: absolute;
   text-indent: -9999px;
   background-size: 100%!important;
-  background-position: 0 100%!IMPORTANT;
+  background-position: 0 100% !important;
   background-repeat: no-repeat;
 }
 /* line 21, ../sass/navigation.scss */
 #navigation ul li a:hover,
 #navigation ul li a.active {
-  background-position: 0 0!important;
+  background-position: 0 0 !important;
 }
 /* line 23, ../sass/navigation.scss */
 #navigation ul li a:hover {
@@ -180,14 +179,7 @@
   left: 696px;
 }
 
-@font-face {
-  font-family: 'sketch';
-  src: url("/sites/vpd411.pfizer.edrupalgardens.com/files/201301/253f6e_0_0-webfont.eot");
-  src: url("/sites/vpd411.pfizer.edrupalgardens.com/files/201301/253f6e_0_0-webfont.eot?#iefix") format("embedded-opentype"), url("/sites/vpd411.pfizer.edrupalgardens.com/files/201301/253f6e_0_0-webfont.woff") format("woff"), url("/sites/vpd411.pfizer.edrupalgardens.com/files/201301/253f6e_0_0-webfont.ttf") format("truetype"), url("/sites/vpd411.pfizer.edrupalgardens.com/files/201301/253f6e_0_0-webfont.svg#sketch") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
+/*@import 'font';*/
 /* line 1, ../sass/front.scss */
 body.front {
   background: url("../images/home.png") no-repeat 100% 100%;
@@ -329,7 +321,7 @@ body.front .lining {
 }
 /* line 22, ../sass/get.scss */
 .buttons-wrapper .active {
-  background-position: 0 100%!important;
+  background-position: 0 100% !important;
 }
 
 /* line 24, ../sass/get.scss */
@@ -365,22 +357,22 @@ h3 {
 
 /* line 6, ../sass/tags.scss */
 h1 {
-  font: normal 50px sketch;
+  font: normal 50px "sketch", Arial, sans-serif;
 }
 
 /* line 7, ../sass/tags.scss */
 h2 {
-  font: normal 26px sketch;
+  font: normal 26px "sketch", Arial, sans-serif;
 }
 
 /* line 8, ../sass/tags.scss */
 h3 {
-  font: normal 19px sketch;
+  font: normal 19px "sketch", Arial, sans-serif;
 }
 
 /* line 9, ../sass/tags.scss */
 h3 span {
-  font: normal 26px sketch;
+  font: normal 26px "sketch", Arial, sans-serif;
 }
 
 /* line 11, ../sass/tags.scss */
@@ -408,18 +400,18 @@ body.page-node-11 h3 span {
   font: normal 39px sketch;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 html, body {
   height: 100%;
 }
 
-/* line 12, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
 html {
   background: black url("../images/bg.jpg") 0 0;
   background-size: 100%;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 body {
   min-height: 100%;
   height: auto!important;
@@ -433,75 +425,76 @@ body {
   background: none;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 body.not-front #page {
   background: url("../images/right_conner.png") no-repeat 100% 0;
 }
 
-/* line 28, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 body.page-node-6 {
   background: url("../images/bg1.png") no-repeat 100% 100%;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 body.page-node-16 {
   background: url("../images/bg3.png") no-repeat 100% 100%;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 body.page-node-26 {
   background: url("../images/bg5.png") no-repeat 100% 100%;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 body.page-node-21 {
   background: url("../images/vid.png") no-repeat 100% 100%;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 body.page-node-31 {
   background: url("../images/bg6.png") no-repeat 100% 100%;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 dl {
   color: #fff;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 p {
   margin: 0 0 10px 0;
 }
 
-/* line 36, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .block ul {
   color: #fff;
   margin: 0 0 13px 0;
 }
 
-/* line 40, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 a, a:link {
   color: #fff;
   /* text-decoration:underline; */
   text-decoration: none;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 48, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 p {
   color: #fff;
 }
 
-/* line 51, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .page-width {
   margin: 0;
+  border: none;
   width: auto;
   /* padding:0 0 0 7.5%;	 */
-  padding: 0 0 0 136px;
+  padding: 0 0 0 7.5%;
 }
 
 /* line 57, ../sass/style.scss */

@@ -1,48 +1,47 @@
 @media (min-width: 1024px) and (max-width: 1440px) {
   /* line 2, ../sass/responsive.scss */
   .page-width {
-    padding: 0 0 0 7.5%!important;
-    border: 1px solid #fff000!important;
+    padding: 0 0 0 7.5% !important;
   }
 
   /* line 3, ../sass/responsive.scss */
   body.front {
-    background-position: 333px 100%!important;
+    background-position: 333px 100% !important;
   }
 
   /* line 4, ../sass/responsive.scss */
   body.not-front #page {
-    background-position: 1010px 0%!important;
+    background-position: 1010px 0% !important;
   }
 
   /* line 5, ../sass/responsive.scss */
   body.page-node-6 {
-    background-position: 779px 100%!important;
+    background-position: 779px 100% !important;
   }
 
   /* line 6, ../sass/responsive.scss */
   body.page-node-16 {
-    background-position: 779px 100%!important;
+    background-position: 779px 100% !important;
   }
 
   /* line 7, ../sass/responsive.scss */
   body.page-node-21 {
-    background-position: 1048px 100%!important;
+    background-position: 1048px 100% !important;
   }
 
   /* line 8, ../sass/responsive.scss */
   body.page-node-26 {
-    background-position: 729px 100%!important;
+    background-position: 729px 100% !important;
   }
 
   /* line 9, ../sass/responsive.scss */
   body.page-node-31 {
-    background-position: 788px 100%!important;
+    background-position: 788px 100% !important;
   }
 
   /* line 10, ../sass/responsive.scss */
   body.front .bird {
-    left: -108px !important;
+    left: -108px!important;
   }
 
   /* line 11, ../sass/responsive.scss */

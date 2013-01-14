@@ -1,12 +1,12 @@
-﻿h1,h2,h3 { margin:0; padding:0;}
+h1,h2,h3 { margin:0; padding:0;}
 h1 { color:#33ccff;}
 h2 { color:#ff9933;}
 h3 { color:#ff9933;}
 
-h1 { font:normal 50px sketch}
-h2 { font:normal 26px sketch}
-h3 { font:normal 19px sketch}
-h3 span { font:normal 26px sketch}
+h1 { font:normal 50px 'sketch',Arial,sans-serif}
+h2 { font:normal 26px 'sketch',Arial,sans-serif}
+h3 { font:normal 19px 'sketch',Arial,sans-serif}
+h3 span { font:normal 26px 'sketch', Arial, sans-serif}
 
 #content h1 {
 /* 	-webkit-transform: rotate(-3deg);
