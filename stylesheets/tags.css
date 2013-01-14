@@ -1,0 +1,65 @@
+/* line 1, ../sass/tags.scss */
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, ../sass/tags.scss */
+h1 {
+  color: #33ccff;
+}
+
+/* line 3, ../sass/tags.scss */
+h2 {
+  color: #ff9933;
+}
+
+/* line 4, ../sass/tags.scss */
+h3 {
+  color: #ff9933;
+}
+
+/* line 6, ../sass/tags.scss */
+h1 {
+  font: normal 50px sketch;
+}
+
+/* line 7, ../sass/tags.scss */
+h2 {
+  font: normal 26px sketch;
+}
+
+/* line 8, ../sass/tags.scss */
+h3 {
+  font: normal 19px sketch;
+}
+
+/* line 9, ../sass/tags.scss */
+h3 span {
+  font: normal 26px sketch;
+}
+
+/* line 11, ../sass/tags.scss */
+#content h1 {
+  /* 	-webkit-transform: rotate(-3deg);
+  	-moz-transform: rotate(-3deg);
+  	-o-transform: rotate(-3deg);
+  	transform: rotate(-3deg); */
+  /* filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=angle); */
+  -moz-transform: scale(1) rotate(-4deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -webkit-transform: scale(1) rotate(-4deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -o-transform: scale(1) rotate(-4deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -ms-transform: scale(1) rotate(-4deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  transform: scale(1) rotate(-4deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  margin-bottom: 50px;
+}
+
+/* line 25, ../sass/tags.scss */
+h3 {
+  margin-bottom: 5px;
+}
+
+/* line 27, ../sass/tags.scss */
+body.page-node-11 h3 span {
+  font: normal 39px sketch;
+}

@@ -1,0 +1,54 @@
+/* line 1, ../sass/get.scss */
+.buttons-wrapper {
+  overflow: hidden;
+  width: 510px;
+  text-align: center;
+  float: left;
+}
+/* line 7, ../sass/get.scss */
+.buttons-wrapper div {
+  width: 155px;
+  height: 152px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+/* line 16, ../sass/get.scss */
+.buttons-wrapper #button-1 {
+  background: url("../images/get1.png") no-repeat 0 0;
+}
+/* line 17, ../sass/get.scss */
+.buttons-wrapper #button-2 {
+  background: url("../images/get2.png") no-repeat 0 0;
+}
+/* line 18, ../sass/get.scss */
+.buttons-wrapper #button-3 {
+  background: url("../images/get3.png") no-repeat 0 0;
+}
+/* line 19, ../sass/get.scss */
+.buttons-wrapper #button-4 {
+  background: url("../images/get4.png") no-repeat 0 0;
+}
+/* line 20, ../sass/get.scss */
+.buttons-wrapper #button-5 {
+  background: url("../images/get5.png") no-repeat 0 0;
+}
+/* line 21, ../sass/get.scss */
+.buttons-wrapper #button-6 {
+  background: url("../images/get6.png") no-repeat 0 0;
+}
+/* line 22, ../sass/get.scss */
+.buttons-wrapper .active {
+  background-position: 0 100%!important;
+}
+
+/* line 24, ../sass/get.scss */
+.descriptions-wrapper {
+  float: left;
+  background: url("../images/arrow.png") no-repeat 0 15px;
+  padding-left: 125px;
+  /* width:480px; */
+  width: 35%;
+  margin-left: -40px;
+}

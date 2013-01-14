@@ -1,0 +1,98 @@
+/* line 1, ../sass/front.scss */
+body.front {
+  background: url("../images/home.png") no-repeat 100% 100%;
+}
+/* line 4, ../sass/front.scss */
+body.front #navigation {
+  background: url("../images/nav_home.png") no-repeat 0 0;
+  height: 442px;
+  width: 624px;
+}
+/* line 9, ../sass/front.scss */
+body.front #navigation ul {
+  height: 442px;
+}
+/* line 12, ../sass/front.scss */
+body.front #navigation ul li.menu-link-2596 a {
+  top: 20px;
+  left: -28px;
+  height: 230px;
+  width: 189px;
+  background: url("../images/m1_.png");
+}
+/* line 19, ../sass/front.scss */
+body.front #navigation ul li.menu-link-2601 a {
+  top: 20px;
+  left: 140px;
+  height: 138px;
+  width: 219px;
+  background: url("../images/m2_.png");
+}
+/* line 26, ../sass/front.scss */
+body.front #navigation ul li.menu-link-2606 a {
+  top: 25px;
+  left: 383px;
+  height: 200px;
+  width: 206px;
+  background: url("../images/m3_.png");
+}
+/* line 33, ../sass/front.scss */
+body.front #navigation ul li.menu-link-2611 a {
+  top: 216px;
+  left: -30px;
+  height: 215px;
+  width: 335px;
+  background: url("../images/m4_.png");
+}
+/* line 40, ../sass/front.scss */
+body.front #navigation ul li.menu-link-2616 a {
+  top: 133px;
+  left: 200px;
+  height: 215px;
+  width: 201px;
+  background: url("../images/m5_.png");
+}
+/* line 47, ../sass/front.scss */
+body.front #navigation ul li.menu-link-2621 a {
+  top: 175px;
+  left: 383px;
+  height: 227px;
+  width: 186px;
+  background: url("../images/m6_.png");
+}
+/* line 57, ../sass/front.scss */
+body.front .bird {
+  background: url("../images/bag.png") no-repeat 0 0;
+  width: 216px;
+  height: 168px;
+  top: -255px;
+  left: -160px;
+}
+/* line 65, ../sass/front.scss */
+body.front #site-name {
+  background: url("../images/logo_main.png") no-repeat 0 0;
+  width: 451px;
+  height: 81px;
+}
+/* line 70, ../sass/front.scss */
+body.front #site-name a {
+  width: 451px;
+  height: 81px;
+}
+/* line 76, ../sass/front.scss */
+body.front #content h2 {
+  display: none;
+}
+/* line 78, ../sass/front.scss */
+body.front #page-title {
+  display: none;
+}
+/* line 80, ../sass/front.scss */
+body.front #node-46 .home {
+  width: 505px;
+  padding-left: 0;
+}
+/* line 85, ../sass/front.scss */
+body.front .lining {
+  padding-top: 25px;
+}

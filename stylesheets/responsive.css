@@ -1,0 +1,98 @@
+@media (min-width: 1024px) and (max-width: 1440px) {
+  /* line 2, ../sass/responsive.scss */
+  .page-width {
+    padding: 0 0 0 7.5%!important;
+    border: 1px solid #fff000!important;
+  }
+
+  /* line 3, ../sass/responsive.scss */
+  body.front {
+    background-position: 333px 100%!important;
+  }
+
+  /* line 4, ../sass/responsive.scss */
+  body.not-front #page {
+    background-position: 1010px 0%!important;
+  }
+
+  /* line 5, ../sass/responsive.scss */
+  body.page-node-6 {
+    background-position: 779px 100%!important;
+  }
+
+  /* line 6, ../sass/responsive.scss */
+  body.page-node-16 {
+    background-position: 779px 100%!important;
+  }
+
+  /* line 7, ../sass/responsive.scss */
+  body.page-node-21 {
+    background-position: 1048px 100%!important;
+  }
+
+  /* line 8, ../sass/responsive.scss */
+  body.page-node-26 {
+    background-position: 729px 100%!important;
+  }
+
+  /* line 9, ../sass/responsive.scss */
+  body.page-node-31 {
+    background-position: 788px 100%!important;
+  }
+
+  /* line 10, ../sass/responsive.scss */
+  body.front .bird {
+    left: -108px !important;
+  }
+
+  /* line 11, ../sass/responsive.scss */
+  body .bird {
+    display: none!important;
+  }
+
+  /* line 12, ../sass/responsive.scss */
+  body.front #copyright .get_facts {
+    left: 100px;
+  }
+
+  /* line 13, ../sass/responsive.scss */
+  body.front #node-46 .home {
+    padding-left: 55px;
+  }
+}
+@media (max-width: 960px) {
+  /* line 16, ../sass/responsive.scss */
+  html, body {
+    background: #411d63!important;
+  }
+  /* line 19, ../sass/responsive.scss */
+  html #page, body #page {
+    background: none!important;
+  }
+  /* line 22, ../sass/responsive.scss */
+  html #copyright, body #copyright {
+    background: url("../images/copy2.png") repeat-x 0% 0%;
+    padding: 0;
+  }
+  /* line 26, ../sass/responsive.scss */
+  html #copyright .left, html #copyright .right, body #copyright .left, body #copyright .right {
+    float: none;
+  }
+  /* line 27, ../sass/responsive.scss */
+  html #copyright .left, body #copyright .left {
+    font: 24px/43px Tahoma;
+    text-align: center;
+  }
+  /* line 31, ../sass/responsive.scss */
+  html #copyright .left a, body #copyright .left a {
+    margin: 0;
+  }
+  /* line 35, ../sass/responsive.scss */
+  html #copyright .right, body #copyright .right {
+    font: 20px/63px Tahoma;
+  }
+  /* line 36, ../sass/responsive.scss */
+  html #copyright .page-width, body #copyright .page-width {
+    padding: 0 30px;
+  }
+}

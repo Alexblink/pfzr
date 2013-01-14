@@ -1,0 +1,86 @@
+﻿body.front {
+	background: url('../images/home.png') no-repeat 100% 100%;		
+	
+	#navigation {
+		background: url('../images/nav_home.png') no-repeat 0 0; 	
+		height:442px; 
+		width:624px;	 
+		
+		ul { 		
+			height:442px; 	
+			
+			li.menu-link-2596 a{
+			top:20px;
+			left:-28px;		
+			height:230px;	 
+			width:189px;
+			background: url('../images/m1_.png'); 
+			}
+			li.menu-link-2601 a{		
+			top:20px;
+			left:140px;
+			height:138px;	
+			width:219px;
+			background: url('../images/m2_.png'); 
+			}		
+			li.menu-link-2606 a{			
+			top:25px;
+			left:383px;
+			height:200px;	
+			width:206px;
+			background: url('../images/m3_.png'); 
+			}		
+			li.menu-link-2611 a{			
+			top:216px;
+			left:-30px;
+			height:215px;	
+			width:335px;
+			background: url('../images/m4_.png'); 
+			}		
+			li.menu-link-2616 a{			
+			top:133px;
+			left:200px;
+			height:215px;	
+			width:201px;
+			background: url('../images/m5_.png'); 
+			}		
+			li.menu-link-2621 a{			
+			top:175px;
+			left:383px;
+			height:227px;	
+			width:186px;
+			background: url('../images/m6_.png'); 
+			}		
+		}	
+	}
+	
+	.bird {
+	background: url('../images/bag.png') no-repeat 0  0;
+	width:216px;
+	height:168px;
+	top:-255px;
+	left:-160px;
+	}
+	
+	#site-name {
+	background: url('../images/logo_main.png') no-repeat 0 0; 
+	width:451px;
+	height:81px;
+	
+		a {
+		width:451px;
+		height:81px;
+		}	
+	}
+	
+	#content h2 { display:none;}
+	
+	#page-title { display:none;}
+	
+	#node-46 .home { 
+		width:505px;
+		padding-left:0;
+	}
+		
+	.lining { padding-top:25px;}
+}

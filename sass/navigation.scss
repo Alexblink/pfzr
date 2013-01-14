@@ -1,0 +1,69 @@
+﻿#navigation {
+	background: url('../images/navi.png') no-repeat 0 0; 	
+	height:243px; 
+	margin:0 0 0 20px;
+	
+	ul { 
+		float:none; 
+		position:relative;	
+		height:243px; 	
+	
+		li a { 
+			display:block;
+			position:absolute;
+			text-indent:-9999px;
+			background-size: 100%!important;
+			background-position: 0 100%!IMPORTANT;
+			background-repeat:no-repeat;			
+		}
+	
+		li a:hover,
+		li a.active { background-position: 0 0!important;}	
+	
+		li a:hover { z-index:500;}
+		li a.active { z-index:450;}
+
+		li.menu-link-2596 a{
+		background: url('../images/m1.png');  
+		width:163px;
+		height:196px;	
+		top:25px;
+		left:-16px;
+		}		
+		li.menu-link-2601 a{
+		background: url('../images/m2.png'); 
+		width:187px;
+		height:120px;	
+		top:56px;
+		left:110px;
+		}		
+		li.menu-link-2606 a{
+		background: url('../images/m3.png'); 
+		width:178px;
+		height:168px;	
+		top:40px;
+		left:253px;
+		}		
+		li.menu-link-2611 a{
+		background: url('../images/m4.png'); 
+		width:292px;
+		height:203px;	
+		top:-13px;
+		left:383px;
+		}		
+		li.menu-link-2616 a{
+		background: url('../images/m5.png'); 
+		width:173px;
+		height:181px;	
+		top:7px;
+		left:565px;
+		}		
+		li.menu-link-2621 a{
+		background: url('../images/m6.png'); 
+		width:162px;
+		height:186px;	
+		top:29px;
+		left:696px;
+		}	
+	}
+}
