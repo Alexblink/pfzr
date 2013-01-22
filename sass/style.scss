@@ -8,7 +8,10 @@
 
 
 html, body { height:100%;}
-html {background:#000 url('../images/bg.jpg') 0 0; background-size: 100%;	}
+html {
+    background:#000 url('../images/bg.jpg') 0 0; 
+    background-size: 100%;    
+}
 body {  
 	min-height:100%;
 	height:auto!important;
@@ -19,7 +22,7 @@ body {
 	line-height:normal;
 	color: #fff; 		
 	/* background: url('../images/bg1.png') no-repeat 100% 100%; */
-	background: none;    
+	background: none;     
 	}
 
 
@@ -35,14 +38,15 @@ p { margin: 0 0 10px 0;}
 .block ul { 
 	color:#fff;
 	margin:0 0 13px 0;
+    padding:0 0 0 22px;
 	}
 a, a:link {
-	color:#fff;
+	color:#fff!important;
 	/* text-decoration:underline; */
 	text-decoration:none;   
 }
 a:hover {	
-	text-decoration:none;
+	text-decoration:underline;
 }
 p { color:#fff;}
 
@@ -50,9 +54,8 @@ p { color:#fff;}
 .page-width { 
 	margin:0;
     border: none;
-	width:auto;
-	/* padding:0 0 0 7.5%;	 */
-	padding:0 0 0 7.5%; 
+	width:auto;	
+	padding:0 0 0 108px;  
 	}
 #content .pane #block-system-main .node {  padding-left:50px;}
 body.page-node-31 #content .pane #block-system-main .node{
@@ -124,6 +127,8 @@ body.page-node-16 #content h1#page-title { display:none;}
 #preheader h2 { display:none;}
 #header-inner { float:left; clear:none;}
 #page {  padding-bottom:250px;	}
+
+#block-rotating-banner-1 { display:none;}
 .wrapper-content .box,
 .stack .box { padding:0;}
 .wrapper-content .stack, .wrapper-footer .stack{ padding:0;}
@@ -136,7 +141,14 @@ ul.primary li.active a { background:#502b7e;}
 .tabs ul.primary li:first-child { display:none;}
 
 
-.form-submit { background:#1ad2e5; margin:0; color:#ffc34a;}
+.form-submit { background:#a1d2e5; margin:0; color:#3a3a3a;} 
+.form-submit:hover { 
+    -webkit-box-shadow: 0px 0px 10px 0px #3CB5F1; /* WebKit */
+    -moz-box-shadow: 0px 0px 10px 0px #3CB5F1; /* Firefox */
+    box-shadow: 0px 0px 10px 0px #3CB5F1; /* Standard */ 
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#3CB5F1', Direction=90, Strength=3);    
+    }
+
 #edit-actions .form-navigation-wrapper { display:none;}
 
 .wrapper-content {
@@ -159,7 +171,7 @@ ul.primary li.active a { background:#502b7e;}
 	ul ul { list-style:none; padding:0;}
 	}
 	
-
+#block-block-41 { display:none;}
 .tips { width:500px;}	
 .learn {width:500px;}
 .vpd { width:680px;}
