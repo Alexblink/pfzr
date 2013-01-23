@@ -1,8 +1,8 @@
 /* line 1, ../sass/front.scss */
 body.front {
-  background: url("../images/nav_home.png") no-repeat 85px 150px;
+  background: url("../images/nav_home.png") no-repeat 90px 130px;
 }
-/* line 3, ../sass/front.scss */
+/* line 4, ../sass/front.scss */
 body.front #page {
   background: url("../images/home.png") no-repeat 100% 100%;
 }
@@ -93,7 +93,7 @@ body.front #page-title {
 }
 /* line 82, ../sass/front.scss */
 body.front #node-46 .home {
-  width: 445px;
+  width: 505px;
   padding-left: 0;
 }
 /* line 87, ../sass/front.scss */

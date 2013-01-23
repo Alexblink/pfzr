@@ -1,7 +1,7 @@
 /*cssing by flpk*/
 @import 'responsive';
 @import 'navigation';
-/*@import 'font';*/ 
+@import 'font';
 @import 'front';
 @import 'get';
 @import 'tags';
@@ -126,7 +126,7 @@ body.page-node-16 #content h1#page-title { display:none;}
 #preheader { float:right; clear:none;}
 #preheader h2 { display:none;}
 #header-inner { float:left; clear:none;}
-#page {  padding-bottom:250px;	}
+#page {  padding-bottom:250px;	overflow-x:hidden;}
 
 #block-rotating-banner-1 { display:none;}
 .wrapper-content .box,
@@ -160,10 +160,11 @@ ul.primary li.active a { background:#502b7e;}
 #breadcrumb { display:none;}	
 #video {
 	background: url('../images/video.png') no-repeat 0 0; 	
-	width:882px;
-	height:556px;
+	width:962px;
+	height:522px;
+    padding:53px 0 0 68px;
 	}
-	
+#video2 { display:none;}	
 #node-16 .left{
 	width:340px;
 	margin-right:30px;
