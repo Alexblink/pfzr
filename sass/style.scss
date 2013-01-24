@@ -46,7 +46,7 @@ a, a:link {
 	text-decoration:none;   
 }
 a:hover {	
-	text-decoration:underline;
+	text-decoration:underline; 
 }
 p { color:#fff;}
 
@@ -84,7 +84,7 @@ body.page-node-16 #content h1#page-title { display:none;}
 #site-name a {
 	display:block;
 	width:426px;
-	height:54px;
+	height:71px;
 	text-indent:-9999px;
 	}	
 #site-slogan {
@@ -100,7 +100,7 @@ body.page-node-16 #content h1#page-title { display:none;}
 	margin:0;
 	padding:90px 0 0 0;
 	height:95px;	
-	/*width:100%;	*/
+	width:100%;	
 	}	
 #copyright a { color:#fff;}	
 #copyright a:hover { text-decoration:underline;}
@@ -176,3 +176,7 @@ ul.primary li.active a { background:#502b7e;}
 .tips { width:500px;}	
 .learn {width:500px;}
 .vpd { width:680px;}
+
+#gardens_ie8 {
+    min-width:1425px;
+    }

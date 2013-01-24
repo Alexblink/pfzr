@@ -1,6 +1,6 @@
 /* line 1, ../sass/front.scss */
 body.front {
-  background: url("../images/nav_home.png") no-repeat 90px 130px;
+  background: url("../images/nav_home.png") no-repeat 120px 125px;
 }
 /* line 4, ../sass/front.scss */
 body.front #page {
@@ -76,12 +76,12 @@ body.front .bird {
 body.front #site-name {
   background: url("../images/logo_main.png") no-repeat 0 0;
   width: 451px;
-  height: 81px;
+  height: 95px;
 }
 /* line 72, ../sass/front.scss */
 body.front #site-name a {
   width: 451px;
-  height: 81px;
+  height: 95px;
 }
 /* line 78, ../sass/front.scss */
 body.front #content h2 {
