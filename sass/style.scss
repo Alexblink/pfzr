@@ -55,7 +55,7 @@ p { color:#fff;}
 	margin:0;
     border: none;
 	width:auto;	
-	padding:0 0 0 108px;  
+	padding:0 108px;   
 	}
 #content .pane #block-system-main .node {  padding-left:50px;}
 body.page-node-31 #content .pane #block-system-main .node{
@@ -79,7 +79,7 @@ body.page-node-16 #content h1#page-title { display:none;}
 	margin:0;
 	padding:0;	
 	width:426px;
-	height:54px;	
+	height:71px;	
 	}
 #site-name a {
 	display:block;
@@ -100,7 +100,7 @@ body.page-node-16 #content h1#page-title { display:none;}
 	margin:0;
 	padding:90px 0 0 0;
 	height:95px;	
-	width:100%;	
+	/*width:100%;	*/
 	}	
 #copyright a { color:#fff;}	
 #copyright a:hover { text-decoration:underline;}
@@ -123,10 +123,10 @@ body.page-node-16 #content h1#page-title { display:none;}
 	text-indent:-9999px;
 	}
 
-#preheader { float:right; clear:none;}
+#preheader { float:right; clear:none; margin-right:25%;}
 #preheader h2 { display:none;}
 #header-inner { float:left; clear:none;}
-#page {  padding-bottom:250px;	overflow-x:hidden;}
+#page {  padding-bottom:250px;}
 
 #block-rotating-banner-1 { display:none;}
 .wrapper-content .box,
