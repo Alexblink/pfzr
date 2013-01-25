@@ -1,36 +1,36 @@
-@media (max-width: 1425px) { 
-	.page-width { padding:0 30px}	
-	body.front #page { background-position:295px 100%!important;}
+@media (max-width: 1425px) {      
+	.page-width { padding:0 30px}	 
+	
 	body.not-front #page{ background-position:1010px 0%!important;}
-	body.page-node-6{ background-position:779px 100%!important;}
-	body.page-node-16{ background-position:779px 100%!important;}
-	body.page-node-21{ background-position:1048px 100%!important;}
-	body.page-node-26{ background-position:729px 100%!important;}	
-	body.page-node-31{ background-position:788px 100%!important;}	
-	body.front .bird {left:-108px!important;}
+	body.page-node-6 #page{ background-position:779px 100%!important;}
+	body.page-node-16 #page{ background-position:779px 100%!important;}
+	body.page-node-21 #page{ background-position:1048px 100%!important;}
+	body.page-node-26 #page{ background-position:729px 100%!important;}	
+	body.page-node-31 #page{ background-position:788px 100%!important;}	
 	body .bird {display:none!important;}
+    body.front .bird {left:-108px!important;}	
+    body.front #page { background-position:295px 100%!important;}
 	body.front #copyright .get_facts { left:100px;}
 	body.front #node-46 .home { padding-left:55px;} 
+    body.front {background-position: 60px 125px!important;}
 }
-@media (min-width: 640px) and (max-width: 1024px){  
+
+@media (min-width: 640px) and (max-width: 1024px){      
     .page-width { 
-        width:964px!important;
-        padding:0 20px!important; 
-    }
-    /*
-    .geton{
-        display:block!important;
-        
-        a {
-            width:275px!important; 
-            height:269px!important;             
-            background-size:100%!important;
-        }
-    }  
-    .get1 { display:none;}
-    */
-    #copyright {
+        padding:0 30px !important;
+        width:864px!important;
+    }      
+}
+@media only screen and (orientation : portrait) {
+    #page {width:924px;} 
+    #copyright{
         width:auto!important;
+    }
+}
+@media only screen and (orientation : landscape) and (max-width: 1024px){
+    #page {width:1024px;}
+    #copyright{
+        width:100%!important;
     }
 }
 @media (max-width: 640px){ 
@@ -43,11 +43,15 @@
         h3 { font:28px Tahoma, Arial;} 
         
 		#page {
-			background:none!important;           
+			background:none!important;                       
+            width:auto!important;
             
-            .page-width { padding:0!important; width:624px!important;} 
+            .page-width { 
+                padding:0!important;
+                width:auto!important;
+            }    
             .lining { padding:0;}
-            #header-inner { padding:0;} 
+            #header-inner { padding:30px 30px 0;}  
             #site-name {
                 background:none;
                 height:auto;
@@ -130,6 +134,7 @@
                     }
                 }
             }
+            #content { padding: 0 30px;}
             .geton{
                 display:block!important;
                 
@@ -152,9 +157,12 @@
 		#copyright {			
 			padding:0;				
 			background:none;
-            width:auto!important;
+            width:100%!important;
             
-            .page-width{padding:0!important; width:624px!important;}
+            .page-width { 
+                padding:0 !important;
+                width:100%!important;                
+            }
             
 			.left, .right {float:none;}
 			.left {
@@ -166,10 +174,11 @@
 				a { margin:0;}
 			}
 			.right {
-                font:100%/63px Tahoma, Arial;
-                background-position:100% 50%;
+                font:100% Tahoma, Arial;
+                line-height:normal;
+                background-position:95% 50%;
                 height:auto;
-                padding:0 4.6875%;
+                padding:10px 60px 10px 4.6875%;
             }			
             .get_facts { 
                 background: url('../images/facts2.png') no-repeat 0% 0%;
