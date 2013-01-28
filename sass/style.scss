@@ -1,7 +1,7 @@
 html, body { height:100%;}
 html {
     background:#000 url('../images/bg.jpg') 0 0; 
-    background-size: 100%;    
+    background-size: 100% auto;    
 }
 body {  
 	min-height:100%;
@@ -12,7 +12,7 @@ body {
 	font-size: 14px; 
 	line-height:normal;
 	color: #fff; 
-	background: none;     
+	background: none;         
 	}
  
 
@@ -174,9 +174,9 @@ ul.primary li.active a { background:#502b7e;}
     min-width:1425px;
     }
 /*cssing by flpk*/
+@import 'font';
+@import 'tags';
 @import 'responsive';
 @import 'navigation';
-@import 'font';
 @import 'front';
-@import 'get';
-@import 'tags';    
+@import 'get'; 

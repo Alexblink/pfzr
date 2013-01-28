@@ -16,6 +16,11 @@
 }
 
 @media (min-width: 640px) and (max-width: 1024px){      
+    html, body { 
+        background-size:auto auto!important;          
+         -webkit-transform: translate3d(0,0,0);
+         
+    }
     .page-width { 
         padding:0 30px !important;
         width:864px!important;
@@ -99,7 +104,7 @@
                     position:absolute;
                     top:36px;
                     right:0;
-                    z-index:500;
+                    z-index:800;
                     width:100%;                    
                     
                     .menu-link-2926 a {
@@ -134,7 +139,13 @@
                     }
                 }
             }
-            #content { padding: 0 30px;}
+            #content { 
+                padding: 0;
+                
+                h1 {padding:0 30px;} 
+                h1.titl{display:none;}
+                h1.titl2{display:block!important;}
+            }
             .geton{
                 display:block!important;
                 
