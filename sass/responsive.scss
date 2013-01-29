@@ -72,11 +72,15 @@
             }
             .region-header .page-element { width:auto;}
             #site-slogan {font:70% Tahoma, Arial;}
+            #header {
+                z-index:900;                
+            }
             #navigation {                
                 margin:0;
                 height:auto;
                 width:auto;
                 background:none;
+                z-index:300;
                 
                 .block {margin:0;}
                 
@@ -121,6 +125,8 @@
                         padding:0 20px;
                         background:#ff9b21 url('../images/m_li.png') repeat-x 0% 0%;
                         border:1px solid #fff;
+                        position:lelative;
+                        z-index:900;
                         
                         .menu-link-2926 a {
                             color:#fff!important;
@@ -141,6 +147,8 @@
             }
             #content { 
                 padding: 0;
+                position:relative;
+                z-index:100;
                 
                 h1 {padding:0 30px;} 
                 h1.titl{display:none;}
@@ -155,14 +163,22 @@
                     background-size:100%;
                 }
             }            
-            .get1 { display:none;}
-            #video { display:none!important;}
-            #video2 {
-                display:block!important;
+            .get1 { display:none;}            
+            #video {                
                 background: url('../images/video_mobile.png') no-repeat 0 0; 	  
             	width:479px;
             	height:318px;
                 padding:31px 0 0 104px;
+                position:relative;
+                z-index:100;
+                
+                
+                object {
+                    width:360px;
+                    height:261px;
+                    position:relative;
+                    z-index:100;                    
+                }
             }
 		}
 		#copyright {			
