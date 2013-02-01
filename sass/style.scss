@@ -1,4 +1,4 @@
-html, body { height:100%;}
+html, body { height:100%;} 
 html {
     background:#000 url('../images/bg.jpg') 0 0; 
     background-size: 100% auto;    
@@ -14,14 +14,24 @@ body {
 	color: #fff; 
 	background: none;         
 	}
- 
+body.not-front { background: url('../images/right_conner.png') no-repeat 100% 0; }
+#page { z-index:100;}
+#copyright {z-index:10;}
+.region-copyright .block {margin:0;}
+#backs {
+position:absolute;
+right:0px;
+bottom:0px;
+height:1250px;
+z-index:5;
+}
+body.front #backs {      width:1107px;background: url('../images/home.png') no-repeat 100% 100%;} 
+body.page-node-6 #backs {width:661px; background: url('../images/bg1.png') no-repeat 100% 100%;}
+body.page-node-16 #backs{width:661px; background: url('../images/bg3.png') no-repeat 100% 100%;}
+body.page-node-26 #backs{width:711px; background: url('../images/bg5.png') no-repeat 100% 100%;}
+body.page-node-21 #backs{width:392px;background: url('../images/vid.png') no-repeat 100% 100%;}
+body.page-node-31 #backs{width:652px; background: url('../images/bg6.png') no-repeat 100% 100%;}
 
-body.not-front { background: url('../images/right_conner.png') no-repeat 100% 0; }	
-body.page-node-6 #page{background: url('../images/bg1.png') no-repeat 100% 100%;}
-body.page-node-16 #page{background: url('../images/bg3.png') no-repeat 100% 100%;}
-body.page-node-26 #page{background: url('../images/bg5.png') no-repeat 100% 100%;}
-body.page-node-21 #page{background: url('../images/vid.png') no-repeat 100% 100%;}
-body.page-node-31 #page{background: url('../images/bg6.png') no-repeat 100% 100%;}
 
 dl { color:#fff;}
 p { margin: 0 0 10px 0;}
@@ -151,15 +161,18 @@ ul.primary li.active a { background:#502b7e;}
 	
 .lining { padding-top: 70px;}	
 #breadcrumb { display:none;}	
-#video {
+#video,
+#video2  {
+    display:none;
 	background: url('../images/video.png') no-repeat 0 0; 	
-	width:962px;
-	height:522px;
-    padding:53px 0 0 68px;
+	width:589px;
+    height:442px;
+    padding:53px 373px 80px 68px;
 	}	
+#video2 span { width:100%; height:100%;}    
 #node-16 .left{
 	width:340px;
-	margin-right:30px;
+	margin-right:30px; 
 	
 	ul ul { list-style:none; padding:0;}
 	}
@@ -169,8 +182,10 @@ ul.primary li.active a { background:#502b7e;}
 .learn {width:500px;}
 .vpd { width:680px;}
 
-#gardens_ie8 {
-    min-width:1425px;
+#gardens_ie {
+    min-width:1425px;    
+    position:relative;
+    z-index:500;
     }
 /*cssing by flpk*/
 @import 'font';

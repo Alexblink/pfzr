@@ -1,22 +1,21 @@
 /* line 1, ../sass/front.scss */
 body.front {
   background: url("../images/nav_home.png") no-repeat 120px 125px;
+    /*
+    #page { background: url('../images/home.png') no-repeat 100% 100%;	} 
+	*/
 }
-/* line 4, ../sass/front.scss */
-body.front #page {
-  background: url("../images/home.png") no-repeat 100% 100%;
-}
-/* line 6, ../sass/front.scss */
+/* line 8, ../sass/front.scss */
 body.front #navigation {
   background: none;
   height: 442px;
   width: 624px;
 }
-/* line 11, ../sass/front.scss */
+/* line 13, ../sass/front.scss */
 body.front #navigation ul {
   height: 442px;
 }
-/* line 14, ../sass/front.scss */
+/* line 16, ../sass/front.scss */
 body.front #navigation ul li.menu-link-2596 a {
   top: 20px;
   left: -28px;
@@ -24,7 +23,7 @@ body.front #navigation ul li.menu-link-2596 a {
   width: 189px;
   background: url("../images/m1_.png");
 }
-/* line 21, ../sass/front.scss */
+/* line 23, ../sass/front.scss */
 body.front #navigation ul li.menu-link-2601 a {
   top: 20px;
   left: 140px;
@@ -32,7 +31,7 @@ body.front #navigation ul li.menu-link-2601 a {
   width: 219px;
   background: url("../images/m2_.png");
 }
-/* line 28, ../sass/front.scss */
+/* line 30, ../sass/front.scss */
 body.front #navigation ul li.menu-link-2606 a {
   top: 25px;
   left: 383px;
@@ -40,7 +39,7 @@ body.front #navigation ul li.menu-link-2606 a {
   width: 206px;
   background: url("../images/m3_.png");
 }
-/* line 35, ../sass/front.scss */
+/* line 37, ../sass/front.scss */
 body.front #navigation ul li.menu-link-2611 a {
   top: 216px;
   left: -30px;
@@ -48,7 +47,7 @@ body.front #navigation ul li.menu-link-2611 a {
   width: 335px;
   background: url("../images/m4_.png");
 }
-/* line 42, ../sass/front.scss */
+/* line 44, ../sass/front.scss */
 body.front #navigation ul li.menu-link-2616 a {
   top: 133px;
   left: 200px;
@@ -56,7 +55,7 @@ body.front #navigation ul li.menu-link-2616 a {
   width: 201px;
   background: url("../images/m5_.png");
 }
-/* line 49, ../sass/front.scss */
+/* line 51, ../sass/front.scss */
 body.front #navigation ul li.menu-link-2621 a {
   top: 175px;
   left: 383px;
@@ -64,7 +63,7 @@ body.front #navigation ul li.menu-link-2621 a {
   width: 186px;
   background: url("../images/m6_.png");
 }
-/* line 59, ../sass/front.scss */
+/* line 61, ../sass/front.scss */
 body.front .bird {
   background: url("../images/bag.png") no-repeat 0 0;
   width: 216px;
@@ -72,31 +71,31 @@ body.front .bird {
   top: -255px;
   left: -160px;
 }
-/* line 67, ../sass/front.scss */
+/* line 69, ../sass/front.scss */
 body.front #site-name {
   background: url("../images/logo_main.png") no-repeat 0 0;
   width: 451px;
   height: 95px;
 }
-/* line 72, ../sass/front.scss */
+/* line 74, ../sass/front.scss */
 body.front #site-name a {
   width: 451px;
   height: 95px;
 }
-/* line 78, ../sass/front.scss */
+/* line 80, ../sass/front.scss */
 body.front #content h2 {
   display: none;
 }
-/* line 80, ../sass/front.scss */
+/* line 82, ../sass/front.scss */
 body.front #page-title {
   display: none;
 }
-/* line 82, ../sass/front.scss */
+/* line 84, ../sass/front.scss */
 body.front #node-46 .home {
   width: 505px;
   padding-left: 0;
 }
-/* line 87, ../sass/front.scss */
+/* line 89, ../sass/front.scss */
 body.front .lining {
   padding-top: 25px;
 }
